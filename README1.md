@@ -1,23 +1,19 @@
-# Landing Club Case Study
-> Solving this project will give us an idea about how real business problems are solved using Exploratory Data Analysis (EDA). In this case study, apart from applying the techniques you have learnt in EDA, we are doing a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
+# Lending-Club-Project---Data-Analysis-for-a-consumer-finance-company
 
+## Introduction
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+Solving this project will give us an idea about how real business problems are solved using Exploratory Data Analysis (EDA). In this case study, apart from applying the techniques you have learnt in EDA, we are doing a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
 
-## General Information
+## Business Understanding
 
-We are working for a **consumer finance company** which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two **types of risks** are associated with the bank’s decision:
+You work for a **consumer finance company** which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two **types of risks** are associated with the bank’s decision:
 
 -   If the applicant is **likely to repay the loan**, then not approving the loan results in a **loss of business** to the company
     
 -   If the applicant is **not likely to repay the loan,** i.e. he/she is likely to default, then approving the loan may lead to a **financial loss** for the company
     
+
 The data given below contains the information about past loan applicants and whether they ‘defaulted’ or not. The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
-## Project Background
 
 In this project, you will use EDA to understand how **consumer attributes** and **loan attributes** influence the tendency of default.
 
@@ -46,31 +42,16 @@ In other words, the company wants to understand the **driving factors (or driver
   
 To develop your understanding of the domain, you are advised to independently research a little about risk analytics (understanding the types of variables and their significance should be enough).
 
-## Dataset Used
+## Data Understanding
 
 Download the dataset from below. It contains the complete loan data for all loans issued through the time period 2007 to 2011.
 
-## Conclusions
-- Loan Term: Average Interest rate for defaulted applications is very high with 12.38 % for 36 months and 15.75 % for 60 months term.
-- Grade: Default Rate is high in high risk loan applicants. It would be important for LC to thoroughly vet high risk loan applications.
-- Loan Amount: Defaulter rate increases as the requested loan amount increases.
-- Annual Income: Applicants from 'Low'(<=45K and 'Medium'(45K 90K USD) income group have a greater share of defaulted loans. 
-- Employment Length: Maximum number of defaulters have 10/10+ years of experience and 0 to 2 years of experience. Hence, LC should be take this aspect into consideration while lending loans.
-- Loan Purpose: The top two reasons for loans are debt consolidation and credit card. Such applications should be carefully assessed.
+You can access the data dictionary which describes the meaning of these variables from the provided link below:
 
-## Technologies Used
-- library - pandas
-- library - numpy
-- library - matplotlib.pyplot
-- library - seaborn
+## Results Expected
 
-
-## Contact
-Created by [@Anshdeep] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+1.  Write all your code in one well-commented Python file; briefly mention the insights and observations from the analysis 
+2.  Present the overall approach of the analysis in a presentation 
+    -   Mention the problem statement and the analysis approach briefly 
+    -   Explain the results of univariate, bivariate analysis etc. in business terms
+    -   Include visualisations and summarise the most important results in the presentation
